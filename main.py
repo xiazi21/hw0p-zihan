@@ -1,5 +1,6 @@
+c = float(input("Enter temperature in celsius:"))
+f = (c * 1.8) + 32
+a ='°'
+print(c,a,'in Celsius is equivalent to',f,a,'Fahrenheit.')
 
-d = input("Enter temperature in celsius:")
-c=int(d)
-c*33.8
-print(d,'in Celsius is equivalent to',c, 'Fahrenheit.')
+
