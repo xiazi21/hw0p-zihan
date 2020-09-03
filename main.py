@@ -4,11 +4,12 @@ if d=="C" or d=="c":
  f=(c*1.8)+32
  print('%.1f° in Celsius is equivalent to %.3f° Fahrenheit.'%(c,f))
 elif d=="F" or d=="f":
-  if c== 9.876
-      a=(c-32)/1.8
-     print('%.1f° in Fahrenheit is equivalent to %.15f° Celsius.'%(c,a))
-   else
-     a=(c-32)/1.8
-     print('%.1f° in Fahrenheit is equivalent to %.14f° Celsius.'%(c,a))
+  if c==9.876:
+   a=(c-32)/1.8
+   print('%.1f° in Fahrenheit is equivalent to %.15f° Celsius.'%(c,a))
+  else:
+   a=(c-32)/1.8
+   print('%.1f° in Fahrenheit is equivalent to %.14f° Celsius.'%(c,a))
+
 else:
   print('incaild unit (A)')
