@@ -7,7 +7,7 @@ d=input('Enter unit in F/f or C/c: ')
 if d=="C" or d=="c":
   if c==100.345:
    f=(c*1.8)+32
-   print(f"%.3f° in Celsius zis equivalent to %.3f° Fahrenheit."%(c,f))
+   print(f"%.3f° in Celsius is equivalent to %.3f° Fahrenheit."%(c,f))
   else:
    f=(c*1.8)+32
    print(f"%.1f° in Celsius is equivalent to %.1f° Fahrenheit."%(c,f))
