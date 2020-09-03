@@ -22,6 +22,6 @@ else:
   if d=="A":
    print(f"Invalid unit(A).")
   elif d=="ABC":
-   print(f"Invalid unit(ABC)."")
+   print(f"Invalid unit(ABC).")
   else:
    print(f"Invalid unit")
