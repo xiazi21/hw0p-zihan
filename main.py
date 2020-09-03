@@ -1,7 +1,7 @@
 #author Zihan Xia
 #collaborator
 #collaborator
-#because my reicitation class in yersterday morning so I do not have them.
+#because my reicitation class in tomorrow morning so I do not have them.
 c = float(input("Enter temperature: "))
 d=input('Enter unit in F/f or C/c: ')
 if d=="C" or d=="c":
