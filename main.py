@@ -19,4 +19,4 @@ elif d=="F" or d=="f":
    a=(c-32)/1.8
    print(f"%.1f° in Fahrenheit is equivalent to %.14f° Celsius."%(c,a))
 else:
-   print(f"Invalid unit{d}.")
+   print(f"Invalid unit ({d}).")
